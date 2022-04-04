@@ -59,4 +59,6 @@ document.querySelector("#slider").addEventListener("click", function() {
 	document.querySelector("#volume").innerHTML = this.value + "%"
 });
 
-document.getElementById('vintage').remove();
+document.getElementById("vintage").addEventListener("click", function() {
+	video.classList.add("oldSchool")
+});
